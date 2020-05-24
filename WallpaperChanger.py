@@ -38,9 +38,8 @@ def change_background_listener(name, path):
         time.sleep(1)
 
 
-
+# randomize the pair of pictures
 if __name__ == '__main__':
-    # randomize the pair of pictures
     random_folder = random.choice([os.path.abspath('wallpaper/' + folder) for folder in os.listdir('wallpaper/')])
     logging.basicConfig(format='%(asctime)s: %(message)s', level=logging.INFO, datefmt='%H:%M:%S')
     logging.info('Starting color scheme listener and wallpaper changer')
