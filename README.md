@@ -1,5 +1,5 @@
 # Auto change wallpaper MacOS dark mode
-Script to detect change of theme to or from dark mode in MacOS
+Script to detect change of theme to or from dark mode in MacOS 🌚🌝
 
 ## Installation
 ### Basic
@@ -12,21 +12,21 @@ chmod +x install.sh update.sh
 ./install.sh
 ```
 4. The system will ask you if the app can control "Finder", give it the `Ok`
-5. Once the install finishes, the application will auto start
+5. Once the install finishes, the application will auto start 🥳
 
 ### Auto open on startup
 You can make the app automatically start on the background so that you don't have to worry with the following steps:
-1. Open System Preferences > Users & Groups > Startup
+1. Open System Preferences > Users & Groups > Startup 🛠
 2. Click the lock icon to unlock adding the application on startup
-3. Add the application that was automatically created in your desktop
+3. Add the application that was automatically created in your desktop 
 
 ## Usage
 
-The application comes with default photos that I have taken in my journeys (not nearly as clean as they can be). You have the liberty of adding or removing wallpapers for your own personal use!
+The application comes with default photos that I have taken in my journeys ✈️ (not nearly as clean as they can be). You have the liberty of adding or removing wallpapers for your own personal use!
 
 To add or remove your own pictures, simply do the following
 1. Create a folder with any name you want in the `wallpaper` folder
-2. In the folder that you created add two `.jpg` (note the picture format) pictures, `light.jpg` and `dark.jpg`, each one corresponding to their respective theme
+2. In the folder that you created add two `.jpg` (note the picture format) pictures, `light.jpg` and `dark.jpg`, each one corresponding to their respective theme 📷
 3. Run the following command in your terminal from the folder which contains the code
 ```sh
 ./update.sh
