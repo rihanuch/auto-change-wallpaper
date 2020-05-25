@@ -9,7 +9,7 @@ def is_dark():
     return os.system('defaults read -g AppleInterfaceStyle &>/dev/null') == 0
 
 def color_scheme_system():
-    if is_dark() == True:
+    if is_dark():
         return 'dark'
     return 'light'
 
